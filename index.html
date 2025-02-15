@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            
+            justify-content: space-around;
+            align-items: center;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .slider2 {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: space-around;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+
+        .box {
+            width: 30%;
+            border: 1px solid #ccc;
+            background-color: #fff;
+            padding: 15px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .slider {
+            position: relative;
+            overflow: hidden;
+            height: 200px;
+        }
+
+        .slides {
+            display: flex;
+            transition: transform 1s ease-in-out;
+        }
+
+        .slide {
+            min-width: 100%;
+            height: 200px;
+        }
+
+        .slide img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .marquee {
+            height: 200px;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .marquee-content {
+            display: block;
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            animation: marquee 10s linear infinite;
+        }
+
+        @keyframes marquee {
+            0% {
+                top: 100%;
+            }
+            100% {
+                top: -100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <CENTER>
+        <nav class="navbar">
+            <ul>
+                <li class="nav-item">Home</li>
+                <li class="nav-item" ><a href="#home">About</a></li>
+                <li class="nav-item">Singup</li>
+                <li class="nav-item">Help</li>
+            </ul>
+        </nav>
+        <div class="slideshow-container">
+            <ul class="slideshow">
+                
+                <li class="slide"><img src="/img/sl1.jfif" alt="image"/>
+
+                </li>
+                <li class="slide"><img src="/img/sl2.jfif" alt="image"/>
+         </li>
+                <li class="slide"><img src="/img/sl3.jfif" alt="image"/>
+                    </li>
+                    
+            </ul>
+            <div class="overlay-text">National Institute of Technology Warangal</div>
+
+        </div>
+    </header>
+    <section>
+        <div class="box">
+            <hr>
+            <marquee>
+                This is the test Scroll news here
+            </marquee>
+            <hr>
+            <aside style="float:left; margin-right: 20px; margin:10px">
+                <img src="/img/drmg.jpg" width="150px"/>
+
+            </aside>
+            <p>I am glad that I have been given an opportunity to serve as the Director of National Institute of Technology (NIT) Warangal-the oldest one in the bracket of first 17 NITs. It is an honour and privilege for me to lead this prestigious institute which has a rich history of its distinction in teaching, research and service to the nation. It is the first regional engineering college whose foundation stone has been laid by the former prime minister, Pandit Jawaharlal Nehru in the year 1959. Over a period of more than six decades, NIT Warangal has emerged as one of the leading institutions in engineering and technology. Warangal is the second largest city of the state of Telangana, Hyderabad being the first one which has several places of interest to visit. Some of the cultural heritages worth seeing in Warangal are Ramappa Tem</p>
+            <div class="kbox" style="display: flex;">
+                <img src="/img/k1.png" style="width: 50%; margin:20px">
+                <img src="/img/k2.png" style="width: 50%; margin:20px">
+            </div>
+            <div class="kbox" style="display: flex;">
+                <div class="kd1" style="text-align:center;  width:50%; border:2px solid black; border-radius: 5000px; margin:20px">
+                    <h1>21</h1><br>
+                    <h2>Engineering <br>Ranking</h2></div>
+                    <div class="kd1" style="text-align:center;  width:50%; border:2px solid black; border-radius: 5000px; margin:20px">
+                        <h1>351-400</h1><br>
+                        <h2>Asia <br>Ranking</h2></div>
+            </div>
+            <div class="kbox" style="display: flex;">
+                <div class="kd1" style="text-align:center;  width:50%; border:2px solid black; border-radius: 5000px; margin:20px">
+                    <h1>53</h1><br>
+                    <h2>overall</h2></div>
+                    <div class="kd1" style="text-align:center;  width:50%; border:2px solid black; border-radius: 5000px; margin:20px">
+                        <h1>1000-1200</h1><br>
+                        <h2>World</h2></div>
+            </div>
+            <div class="buton">
+                <button style=" color: white; padding:10px 20px 10px 20px; margin-left: 20px; background-color: orange;">Vision</button>
+                <button style=" color: white; padding:10px 20px 10px 20px; margin-left: 0px; background-color: orange;">Vision</button>
+    
+            </div>
+            
+
+    
+        </div>
+        </section>
+       
+
+    </section>
+    <div class="slider2">
+        <div class="box">
+            <div class="slider">
+                <div class="slides">
+                    <div class="slide"><img src="https://nitw.ac.in/api/static/files/gfeb_2024-12-16-19-19-44.jpg" alt="Slide 1"></div>
+                    <div class="slide"><img src="https://nitw.ac.in/api/static/files/gjuly_2024-12-16-19-21-31.jpg" alt="Slide 2"></div>
+                    <div class="slide"><img src="https://nitw.ac.in/api/static/files/Gain_10_day_course_2024-12-18-15-40-16.jpg" alt="Slide 3"></div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="box marquee">
+            <div class="marquee-content">
+                <p>Dr. Sanjaya Kumar Panda has been selected to receive the Odisha Young Scientist Award for the year 2023...</p>
+                <p>Congratulations to the Director, Prof. Bidyadhar Subudhi, on being honored...</p>
+            </div>
+        </div>
+    
+        <div class="box">
+            <div class="slider">
+                <div class="slides">
+                    <div class="slide"><img src="https://nitw.ac.in/api/static/files/721084new_2024-12-27-10-51-36.jpg" alt="Slide 1"></div>
+                    <div class="slide"><img src="https://nitw.ac.in/api/static/files/720126_2024-12-17-18-42-12.jpg" alt="Slide 2"></div>
+                    <div class="slide"><img src="https://nitw.ac.in/api/static/files/721101_2024-12-23-12-3-10.jpg" alt="Slide 3"></div>
+                </div>
+            </div>
+        </div>
+        </div>
+    
+    
+        <script>
+            // JavaScript to cycle through slides
+            let currentIndex = 0;
+            const slides = document.querySelectorAll('.slides');
+    
+            setInterval(() => {
+                currentIndex++;
+                slides.forEach(slideContainer => {
+                    slideContainer.style.transform = `translateX(-${currentIndex * 100}%)`;
+                    if (currentIndex >= slideContainer.children.length) {
+                        currentIndex = 0;
+                    }
+                });
+            }, 3000);
+        </script>
+        <br>
+        <div class="campus" style="display: flex; justify-content:space-evenly; align-items:center; margin:auto; width:100% ">
+            <hgroup>
+                <h1>Campus Life</h1><br>
+                <img src="https://nitw.ac.in/media/files/campus_life_2021-10-30-20-8-49.jpg" width="30%"/>
+                <img src="https://th.bing.com/th/id/OIP.JdjnDfkgExIEIcjoCuMgSQAAAA?w=400&h=267&rs=1&pid=ImgDetMain" width="30%" style="margin-left: 3%; margin-right: 3%;"/>
+                <img src="https://vnit.ac.in/wp-content/uploads/slider9/whatsapp-image-2024-02-16-at-10.22.33-am.jpeg" width="30%"/>
+    
+            </hgroup>
+        </div>
+</body>
+</html>

@@ -112,6 +112,7 @@ body{
   padding-right: 15px;
 }
 .campus{
+  mrgin: 10px;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;

@@ -110,3 +110,7 @@ body{
   justify-content:center;
   aligh-items: center;
 }
+.rankings{
+  dislplay: flex;
+  flex-direction: column;
+}

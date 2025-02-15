@@ -51,13 +51,13 @@ body{
 }
 .slide{
   min-width: 100%;
-  max-height: 70vh;
+  height: 70vh;
   transition: transform 0.5s ease-in-out;
 }
 .slide img{
   width:100%;
-  object-fit: contain;
   height: 100%;
+  object-fit: contain;
   text-align: center;
   color: white;
   display: block;
@@ -112,7 +112,14 @@ body{
 .capus-life{
   display: flex;
   flex-wrap: wrap;
+  flex-direction: column;
   justify-content:center;
+  aligh-items: center;
+}
+.campus-images{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   aligh-items: center;
 }
 .rankings{

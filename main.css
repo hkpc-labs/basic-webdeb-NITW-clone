@@ -99,6 +99,8 @@ body{
   aligh-items: center;
   justify-content: center;
   margin: auto;
+  flex-direction: row;
+  
 }
 .kd1{
   padding-left: 15px;
@@ -112,10 +114,6 @@ body{
 }
 .rankings{
   dislplay: flex;
+  width: 50%;
   flex-direction: column;
-}
-.rankings-list{
-  display: flex;
-  justify-content: enter;
-  aligh-items: center;
 }

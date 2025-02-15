@@ -133,6 +133,7 @@ body{
   display: flex;
   flex-direction: column;
   justify-content: center;
+  text-align: center;
   aligh-items:center;
   background-color: black;
   color: white;

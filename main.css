@@ -91,11 +91,11 @@ body{
 }
 .box121{
   display: felx;
+  width: 50%;
   flex-direction: column;
 }
 .kbox{
   display: flex;
-  flex-wrap: wrap;
   aligh-items: center;
   justify-content: center;
   margin: auto;

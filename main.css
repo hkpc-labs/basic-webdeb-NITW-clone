@@ -120,3 +120,11 @@ body{
   width: 50%;
   flex-direction: column;
 }
+.footer{
+  display: flex;
+  justify-content: center;
+  aligh-items:center;
+  background-color: darkgrey;
+  color: white;
+  height: 70px;
+}

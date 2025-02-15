@@ -12,7 +12,7 @@ body{
   aligh-items:center;
   background-color: black;
   color: white;
-  width: 100%
+  width: 100%;
   height: 120px;
 }
 
@@ -56,17 +56,16 @@ body{
   margin:0;
   list-style:none;
   width:300%;
-  height: 70vh;
+  height: 50vh;
   animation: slide 12s infinite;
 }
 .slide{
   min-width: 100%;
-  height: 70vh;
+  height: 50vh;
   transition: transform 0.5s ease-in-out;
 }
 .slide img{
   width:100%;
-  height: 70vh;
   object-fit: contain;
   text-align: center;
   color: white;

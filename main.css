@@ -131,6 +131,7 @@ body{
 }
 .footer1{
   display: flex;
+  flex-direction: column;
   justify-content: center;
   aligh-items:center;
   background-color: black;
